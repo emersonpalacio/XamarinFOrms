@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Layouts.StackLayout">
+
+
+    <ScrollView>
+        <StackLayout Padding="30" Spacing="10">
+            <StackLayout>
+                <Label Text=" nombre" TextColor="Chocolate" FontFamily="Large "/>
+                <Entry x:Name="entryname"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Edad " FontFamily="Large"/>
+                <Entry x:Name="entryEdad"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Direccion " FontFamily="Large"/>
+                <Entry x:Name="entryDireccion"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="RFC " FontFamily="Large"/>
+                <Entry x:Name="entryRFC"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Razón social " FontFamily="Large"/>
+                <Entry x:Name="entryRazonSocial"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Numero interior " FontFamily="Large"/>
+                <Entry x:Name="entryNumeroInterior"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Ciuedad " FontFamily="Large"/>
+                <Entry x:Name="entryCiudad"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Costumbres " FontFamily="Large"/>
+                <Entry x:Name="emtryCostumbres"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Raza " FontFamily="Large"/>
+                <Entry x:Name="EntryRaza"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Pelutudo " FontFamily="Large"/>
+                <Entry x:Name="entryPelotudo"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
