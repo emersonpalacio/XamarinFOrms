@@ -10,12 +10,9 @@ namespace Pryect.App
         {
             InitializeComponent();
 
-            MainPage = new ContactPage(new Contacto { 
-              Direccion = "carrera 3#45-67",
-              Nombre = "texo",
-              Telefono ="123"
-              
-            });
+            MainPage = new NavigationPage(new HomePage()) ;
+        
+            
         }
 
         protected override void OnStart()
